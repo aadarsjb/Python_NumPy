@@ -33,3 +33,20 @@ print(arr2[0, ::2])
 # From both elements, return index 2
 print(arr2[0:2, 2])
 print(arr2[0:2, 2:5])
+
+
+# for 3-D array
+
+arr3 = np.array([[[1,2,3],[4,5,6]], [[11,22,33], [44,55,66]]])
+print(arr3[1, 1, 1:])
+#prints [55 66]
+print(arr3[1, 0, ::-1])
+#prints [33 22 11]
+print(arr3.ndim)
+
+
+
+
+
+
+
