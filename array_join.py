@@ -1,4 +1,4 @@
-# puutting content of teo or more arrays in a single array
+# puutting content of two or more arrays in a single array
 #  we join arrays by axes
 
 # pass a sequence of arra to the concatenate() function, along with the axis
@@ -22,6 +22,8 @@ arr4 = np.array([[11, 22, 33], [44, 55, 66]])
 
 print("Concatenating")
 arr5 = np.concatenate((arr3, arr4), axis = 1)
+print(arr5)
+
 
 print("Join two 2-D arrays along row (axis = 0):")
 print("Concatenating")
